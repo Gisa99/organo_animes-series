@@ -1,0 +1,20 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    background-color: #2a184e79;
+    width: 70%;
+    border-radius: 24px;
+    padding: 1rem 0 2rem 0;
+   
+}
+
+.formulario form{
+    width: 60%;
+}
+.formulario h2{
+    color: white;
+    text-transform: uppercase;
+}
