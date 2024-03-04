@@ -35,3 +35,9 @@
     color: #212121;
     padding: 0 16px;
 }
+
+@media(min-width: 0) and (max-width: 1024px){
+    .serie {
+       margin-bottom:  1rem;
+    }
+}

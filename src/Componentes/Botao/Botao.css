@@ -15,3 +15,10 @@
     background-color: #180341ef;
     color: #d5c5f5ef;
 }
+
+@media(min-width: 0) and (max-width: 1024px){
+    .botao{
+        width: 100%;
+        padding: 16px;
+    }
+}

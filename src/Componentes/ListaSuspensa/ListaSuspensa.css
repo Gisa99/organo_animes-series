@@ -19,3 +19,9 @@
     color: #fff;
     margin-bottom: 8px;
 }
+
+@media (min-width: 0) and (max-width: 1024px){
+     .lista-suspensa, .lista-suspensa select, .lista-suspensa label{
+        font-size: 18px;
+    }
+}

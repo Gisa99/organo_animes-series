@@ -18,3 +18,18 @@
     color: white;
     text-transform: uppercase;
 }
+
+@media (min-width: 0) and (max-width: 768px){
+    .formulario{
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+    .formulario form{
+        width: 90%;
+    }
+    .formulario h2{
+        text-align: center;
+        width: 90%;
+    }
+}
