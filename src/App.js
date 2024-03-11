@@ -30,6 +30,10 @@ function App() {
   const paraNovaSerieAdicionada = (serie) =>{
     setSeries([...series, serie])
   }
+
+  function deletarSerie(){
+    console.log('deletando serie')
+  }
  
   return (
     <div className='App'>
@@ -40,7 +44,9 @@ function App() {
       status={status.nome}  
       corPrimaria={status.corPrimaria}
       series={series.filter(serie => serie.status === status.nome )}
-      />)}
+      aoDeletar={deletarSerie}
+      />
+    )}
      
     </div>
   )

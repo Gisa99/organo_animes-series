@@ -7,13 +7,17 @@ const Situacao = (props) => {
             <h3 style={{borderColor:  props.corPrimaria, color: props.corPrimaria}}>
                 {props.status}</h3>
             <div className='series'>
-                {props.series.map( serie => <Serie
-                corDeFundo={props.corPrimaria}
-                key={serie.titulo}  
-                titulo={serie.titulo} 
-                comentarios={serie.comentarios} 
-                imagem={serie.imagem}
-            />)}
+                {props.series.map( serie => {
+                    console.log('renderizando serie')
+                    return <Serie
+                        corDeFundo={props.corPrimaria}
+                        key={serie.titulo}  
+                        titulo={serie.titulo} 
+                        comentarios={serie.comentarios} 
+                        imagem={serie.imagem}
+                        aoDeletar={props.aoDeletar}
+                    />    
+                })}
             </div>
         </section>
         : ''
