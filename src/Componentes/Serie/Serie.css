@@ -43,6 +43,10 @@
     top: -10px;
 }
 
+.favoritar{
+    margin-top: 20px;
+}
+
 @media(min-width: 0) and (max-width: 1024px){
     .serie {
        margin-bottom:  1rem;
